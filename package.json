@@ -1,0 +1,23 @@
+{
+  "name": "@zunaes/bst",
+  "version": "1.0.0",
+  "description": "binary search tree ",
+  "main": "bst.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeanCagin/bst.git"
+  },
+  "keywords": [
+    "bst",
+    "binary-search-tree"
+  ],
+  "author": "sean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeanCagin/bst/issues"
+  },
+  "homepage": "https://github.com/SeanCagin/bst#readme"
+}
