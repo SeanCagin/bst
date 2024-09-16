@@ -121,8 +121,8 @@ class BinarySearchTree {
   depth(node, curr = this.#root) {
     if (node == null) throw "node doesn't exist";
     if (node.value == curr.value) return 0;
-    if (node.value < curr.value) return this.depth(curr.left) + 1;
-    if (node.value > curr.value) return this.depth(curr.right) + 1;
+    if (node.value < curr.value) return this.depth(node, curr.left) + 1;
+    if (node.value > curr.value) return this.depth(node, curr.right) + 1;
   }
 
   isBalanced() {
